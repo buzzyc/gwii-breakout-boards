@@ -36,7 +36,7 @@ Tactile switch mounting board for auxiliary controls (Start, Select, Home, volum
 
 The footprint labelled **SYNC** can also act as a **Bluetooth sync** button depending on jumper configuration — position both jumpers at **1&2** for standard sync, or **2&3** for BT sync.
 
-The resistor ladder on this board is designed around the **ZJ050NA-08C-KYV-N2** black VGA driver board ([reference thread](https://bitbuilt.net/forums/threads/power-suggestion-for-the-5%E2%80%9D-zj050na-08c.2858/)).
+The resistor ladder on this board is designed around the **ZJ050NA-08C-KYV-N2** black VGA driver board ([resistor value reference](https://bitbuilt.net/forums/threads/resistor-value.6798/)).
 
 ![Tactile Mount PCB front](images/tactmount-front.png)
 ![Tactile Mount PCB rear](images/tactmount-rear.png)
