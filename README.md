@@ -34,7 +34,7 @@ Analog joystick breakout board. Provides connectors for joystick axis signals an
 ### Tactile Mount (`tactmount/`)
 Tactile switch mounting board for auxiliary controls (Start, Select, Home, volume, etc.). Includes signal conditioning with pull-up resistors and decoupling capacitors.
 
-The footprint labelled **SYNC** can act as either SOURVE or a **Bluetooth sync** button depending on jumper configuration — position both jumpers at **1&2** for video source, or **2&3** for BT sync.
+The footprint labelled **SYNC** can act as either **SOURCE** or **Bluetooth sync** button depending on jumper configuration — position both jumpers at **1&2** for video source, or **2&3** for BT sync.
 
 The resistor ladder on this board is designed around the **ZJ050NA-08C-KYV-N2** black VGA driver board (board reference](https://bitbuilt.net/forums/threads/resistor-value.6798/)).
 
