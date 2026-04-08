@@ -1,0 +1,22 @@
+# KiCad backup files
+*-backups/
+*.bck
+*~
+_autosave-*
+
+# KiCad lock files
+*.lck
+
+# KiCad local settings (user-specific)
+*.kicad_prl
+
+# Gerber output (can regenerate from source)
+# Uncomment below if you want to exclude gerbers
+# gerbers/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Cache files
+fp-info-cache
