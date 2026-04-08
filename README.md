@@ -19,14 +19,27 @@ Video and signal breakout board that routes RGB video (RED, GREEN, BLUE), sync s
 ### ABXY (`ABXY/`)
 Face button PCB for the A, B, X, Y, and Z buttons. Uses ALPS SKEYACA010 tactile switches and routes all button signals through a 6-pin connector back to the daughterboard. Also includes a mount for a common-anode tricolour (RGB) LED.
 
+![ABXY PCB render](images/abxy.png)
+
 ### D-Pad (`DPAD/`)
 Directional pad button PCB for Up, Down, Left, and Right inputs.
+
+![D-Pad PCB render](images/dpad.png)
 
 ### Joystick (`joystick/`)
 Analog joystick breakout board. Provides connectors for joystick axis signals and mounting, routing back to the daughterboard.
 
+![Joystick PCB render](images/joystick.png)
+
 ### Tactile Mount (`tactmount/`)
 Tactile switch mounting board for auxiliary controls (Start, Select, Home, volume, etc.). Includes signal conditioning with pull-up resistors and decoupling capacitors.
+
+The footprint labelled **SYNC** can also act as a **Bluetooth sync** button depending on jumper configuration — position both jumpers at **1&2** for standard sync, or **2&3** for BT sync.
+
+The resistor ladder on this board is designed around the **ZJ050NA-08C-KYV-N2** black VGA driver board ([reference thread](https://bitbuilt.net/forums/threads/power-suggestion-for-the-5%E2%80%9D-zj050na-08c.2858/)).
+
+![Tactile Mount PCB front](images/tactmount-front.png)
+![Tactile Mount PCB rear](images/tactmount-rear.png)
 
 ## Shared Libraries
 
@@ -41,3 +54,5 @@ The [G-Wii](https://bitbuilt.net/forums/) is a portable Wii console build from t
 ## License
 
 Open hardware — use and modify freely for your own portable Wii builds.
+
+> **Note:** These boards are not perfect and are provided as-is. You are more than welcome to modify them to suit your build.
